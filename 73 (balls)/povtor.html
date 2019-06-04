@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="text py-3 col-6 mx-auto mt-3 text-center px-3 border border-success"></div>
+	<div class="text py-3 col-6 mx-auto mt-3 text-center px-3 border border-success"></div>
+	<div class="text py-3 col-6 mx-auto mt-3 text-center px-3 border border-success"></div>
+	<div class="text py-3 col-6 mx-auto mt-3 text-center px-3 border border-success"></div>
+<script type="text/javascript">
+	//Задание: Переделать под цикл, сократите код. У вас повторяется один и тот же код.
+	let array = ["Ответ 1","Ответ 2","Ответ 3","Ответ 4"];
+	
+	let texts = document.querySelectorAll(".text");
+	for(let index = 0; index<4; index = index + 1){
+		texts[index].onclick = function(){
+		texts[index].innerHTML = array[index]
+	}	
+}
+	
+	
+</script>
+</body>
+</html>

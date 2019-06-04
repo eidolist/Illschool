@@ -1,0 +1,31 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+
+.bgs {
+background-image: url(https://moneyinc.com/wp-content/uploads/2016/09/Louis-Vuitton-750x500.jpg);
+/* background-size: 100% 100%; */
+}
+
+.shad {
+  text-shadow: 4px 4px black;
+}
+
+.caroline {
+  border-radius:20px;
+}
+
+

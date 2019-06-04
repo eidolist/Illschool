@@ -1,0 +1,67 @@
+.banner {
+	height: 700px;
+	background-image: 	url(	loft.jpg);
+	background-size: 	100% 100%;
+}
+.info {
+	height: 350px;
+	background-color: green;
+	padding-top: 50px;
+}
+.menu {
+	height: 1100px;
+	background-color: yellow;
+	padding-top: 	100px;
+}
+
+.photo {
+	height: 1200px;
+	background-color: cyan;
+}
+.contacts {
+	height: 500px;
+	background-color: violet;
+}
+.parent {
+	width: 1100px;
+	height:300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: cyan;
+}
+.mblock {
+	height: 1000px;
+	width: 	1300px;
+	background-color: 	purple;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mini {
+	height: 300px;
+	width: 850px;
+	background-color: 	navy;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 	30px;
+	display: 	flex;
+}
+
+.micro {
+	height: 300px;
+	width: 	400px;
+	background-color: 	green;
+	margin-left: 	50px;
+}
+.logo {
+	margin-left: 	50px;
+	width:100px;
+}
+
+@font-face {
+    font-family: "lol";
+    src: url(http://www.example.org/LittleBird.ttf) format("truetype");
+}
+
+h1 { 
+	font-family: 'Droid Sans', arial, serif;
+ }
